@@ -77,6 +77,23 @@ def test_palindrome():
     assert palindrome("a") == True
     assert palindrome("abc") == False
 
+# 1.5 One Away: There are three types of edits that can be performed on strings: insert a char, remove a char, replace a char
+# Given 2 strings, write a function to check if they are one edit (or zero edits) away.
+
+
+# 1.6 String Compression: Implement a method to perform basic string compression using the counts of repeated chars
+# e.g. aabcccccaaa would become a2b1c5a3
+# If your compressed string would not become smaller than the original string, your method should return the original.
+# Limited to lower and upper case letters
+
+# 1.7 Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image 90 degrees
+
+# 1.8 Zero Matrix: Write an algorithm such that if an element in a MxM matrix is 0, its entire row and column are set to 0
+
+# 1.9 String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another.
+# Given 2 stringscheck if s2 is a rotation of s1 using one call to isSubstring
+# e.g. waterbottle is a rotation of erbottlewat
+
 if __name__ == "__main__":
     # Write tests here
     test_isUnique()
