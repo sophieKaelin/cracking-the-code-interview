@@ -44,7 +44,6 @@ def palindrome(string):
         if countOdds > 1:
             return False
     return True
-<<<<<<< HEAD
 
 def test_palindrome():
     assert palindrome("racecar") == True
@@ -78,5 +77,3 @@ if __name__ == "__main__":
     test_URLify()
     test_palindrome()
     print("Everything passed")
-=======
->>>>>>> 9902d38d4b714dd79ddcf371c026d4ecd38814d5
